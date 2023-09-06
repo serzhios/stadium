@@ -1,0 +1,102 @@
+:root {
+  --color__blue: #3877ee;
+  --color__green: #6abf4b;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+}
+.container img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container .buttons {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.container .buttons [data-secname] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 15px;
+  border: 1px solid var(--, #6abf4b);
+  background: #6abf4b;
+}
+.container .buttons button {
+  cursor: pointer;
+  width: 40px;
+  height: auto;
+  border-radius: 50px;
+  border: none;
+  opacity: 0.7;
+  color: antiquewhite;
+  text-align: center;
+  font-size: 30px;
+}
+.container .buttons .btnBlue {
+  background: var(--color__blue);
+}
+.container .buttons .btnGreen {
+  background: var(--color__green);
+}
+.container .buttons .btn1 {
+  position: relative;
+  bottom: 63px;
+  right: 83px;
+}
+.container .buttons .btn2 {
+  position: relative;
+  bottom: 212px;
+  left: 800px;
+}
+.container .buttons .btn3 {
+  position: relative;
+  top: 63px;
+  left: 876px;
+}
+.container .buttons .btn4 {
+  position: relative;
+  top: 160px;
+  left: 514px;
+}
+.container .buttons .btn5 {
+  position: relative;
+  top: 242px;
+  left: 1073px;
+}
+.container .buttons .btn6 {
+  position: relative;
+  top: 262px;
+  right: 290px;
+}
+.container .buttons .btn7 {
+  position: relative;
+  bottom: 122px;
+  left: 101px;
+}
+.container .buttons .btn8 {
+  position: relative;
+  bottom: 240px;
+  left: 554px;
+}
+.container .buttons .btn9 {
+  position: relative;
+  top: 139px;
+  left: 557px;
+}
+.container .buttons .btn10 {
+  position: relative;
+  bottom: 110px;
+  left: 772px;
+}
